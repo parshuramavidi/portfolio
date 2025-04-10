@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Parushuram-portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <img src="images/image1.webp" alt="logo" class="logo-icon">
+      <a href="/">parushuram Avidi</a>
+    </div>
+
+    <div class="right">
+
+      <a href="http://github.com/parshuramavidi" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="http://linkedin.com/in/parushuramavidi" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:parshuramavidi@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm parushuram 👋</h2>
+        <p>I’m a forward thinking and innovative collaborator who enjoys solving problems, working on challenging projects.I have consistently demonstrated a strong work ethic and maintained exemplary behaviour throughout my academic journey.With a passion for efficient and scalable solutions, I continuously strive to enhance my technicall skills. My goal is to apply my knowledge and problemm solving abilities to real world challenges while growing as a professionl in the tech industry.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#my-projects">
+            <i class="fa-solid fa-pen"></i>
+            <span>My Projects</span>
+          </a>
+          
+          <a href="#coding-profiles">
+            <i class="fa-solid fa-user"></i>
+            <span>Coding profiles</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/face-image.webp" alt="hero headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        I developed my programming skills in java, python. Proficent in java, with object orient programming principles.Skilled in SQL for database management and query optimisation and front end development using HTML and CSS with a focus on clean and responsive design.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/java-logo.webp" alt="java logo">
+          <span>java</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/sql-logo.webp" alt="sql logo">
+          <span>SQL</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+  
+        <div class="cell">
+          <img src="images/python-logo.webp" alt="python logo">
+          <span>Python</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: My Projects -->
+     <section id="my-projects" class="project-section">
+      <h1>My Projects</h1>
+      <h2>Project Title : computer vision application : vehicle counting classification system from real time videos</h2>
+      <p>This is a computer vision-based application developed as part of an academic group project, completed by a team of three members. The objective of the project was to detect and count moving vehicles in a video stream using image processing and object tracking techniques.The system was implemented using Python and OpenCV, and it utilizes background subtraction and contour detection for real-time vehicle counting.</p>
+      <h3>🚦 problem statement :</h3>
+      <p>numerous challenges that exist within urban transportation and traffic management.these systems offer critical issues that are need to be addresed.
+        <nav>
+      <ul>
+        <li>Inadequate traffic data</li>
+        <li>Traffic congestion </li>
+        <li>Road safety</li>
+      </ul>
+    </nav>
+      </p>
+      <h3>🎯 applications :</h3>
+      <p>Traffic management and Optimisation, Road safety and accident prevention, Parking management</p>
+      <h3>🔍 Existing system :</h3>
+      <li>ROI selection </li>
+      <li>detection of moving objects</li>
+      <li>clustering process</li>
+      <li>tracking</li>
+      <li>single frame classification and counting</li>
+      <h3>🚀 proposed system :</h3>
+      <p>the proposed system contains yolo-v3 model(you only look once)</p>
+      <ul>
+        <li>stage 1 : aquire video as input</li>
+        <li>stage 2 : background subtraction, moving object from background</li>
+        <li>stage 3 : use YOLO (You Only Look Once) a deep learning algorithm. locates objects in real time video frames.</li>
+        <li>stage 4 : further analyze and classify the objects using darknet framework.darknet is a neural network framework well suited for classification tasks.classifies vehicles into different categories such as cars, trucks, motorcycles, or any other relevant classes.</li>
+        <li>stage 5 : count and analyze the detected and classified vehicles.</li>
+        <li>stage 6 : finally, the system provides the video output with the processed information on the screen video feed.</li>
+      </ul>
+      <h3>📈 Outcome :</h3>
+      <p>Our system achieved over 90% accuracy in vehicle detection and classification across multiple test videos, demonstrating its potential for real-world deployment in traffic monitoring systems</p>
+      <div class="cells">
+        <div class="cell">
+          <img src="images/output1.webp" alt="output1">
+        </div>
+        <div class="cell">
+          <img src="images/output2.webp" alt="output2">
+        </div>
+      </div>
+      
+     </section>
+    <!-- SECTION 4: Coding profiles -->
+     <section id="coding-profiles" class="coding-section">
+      <h2>Coding profiles</h2>
+      <div class="text">
+        You can explore more of my work and coding activity through my profiles on hackerrank, geeksforgeeks, leetcode. These platforms showcase my coding skills, problem solving. I regularly maitain these profiles to demonstrate my commitment to continuous learning and improvement.
+      </div>
+      <div class="cells">
+        <div class="cell">
+          <img src="images/gfg-logo.webp" alt="gfg logo">
+          <span>GeeksForGeeks<a href="https://geeksforgeeks.org/user/parshurals8f/">🔗</a></span>
+        </div>
+
+        <div class="cell">
+          <img src="images/HackerRank-logo.webp" alt="hackerrank logo">
+          <span>Hakerrank <a href="https://hackerrank.com/profile/parshuramavidi">🔗</a></span>
+        </div>
+
+        <div class="cell">
+          <img src="images/LeetCode-logo.webp" alt="leetcode logo">
+          <span>Leet Code <a href="https://leetcode.com/u/parshuramavidi/">🔗</a></span>
+        </div>
+
+      </div>
+     </section>
+  
+  </main>
+</body>
+</html>
